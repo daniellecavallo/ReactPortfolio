@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import About from './pages/about'
 import Contact from './pages/contact'
+import Portolio from './pages/portfolio'
 
 function App() {
  
@@ -13,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<About/>} />
-        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/portfolio' element={<Portolio/>} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>
