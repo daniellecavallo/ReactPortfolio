@@ -1,23 +1,8 @@
-# ReactPortfolio
-Portfolio created to demonstrate my React Portfolio.
+# React + Vite
 
-# Description
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-
-## Installation
-- Run npm install and that will bring you to localhost3000.
-- Navigate to Heroku through this 
-- https://github.com/daniellecavallo/ReactPortfolio
-
-
-
-## Usage
-- Navigate to the page and start editing text.
-
-
-## License
-
-- MIT License
-    - https://mit-license.org/
-        - The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology. As a permissive license, it puts only very limited restriction on reuse and has, therefore, an excellent license compatibility.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
