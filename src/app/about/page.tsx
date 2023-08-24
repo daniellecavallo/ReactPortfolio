@@ -5,12 +5,12 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import {
-  GitHubIcon,
+  GitHubIcon, 
   InstagramIcon,
-  LinkedInIcon,
+  LinkedInIcon, 
   TwitterIcon,
 } from '@/components/SocialIcons'
-import portraitImage from '@/images/TCC LOGO.png'
+import portraitImage from '@/images/cute.png'
 
 function SocialLink({
   className,
@@ -76,9 +76,9 @@ export default function About() {
 
             <p>The financial industry became Danielle&#39;s chosen path, where she devoted the last ten years to guiding clients towards better retirement and financial decisions. Her unique approach, grounded in empathy and a keen understanding of her clients&#39; needs, has garnered her a reputation as a trusted and reliable advisor in the field.</p>
 
-            <p>But Danielle&#39;s interests didn&#39;t stop there. Driven by her passion for technology, she decided to expand her knowledge by pursuing studies in software engineering at Columbia University. With an unyielding thirst for knowledge, she aspires to delve into the world of cybersecurity, recognizing its vital role in safeguarding individuals and organizations in the digital age.</p>
+            <p>But Danielle&#39;s interests didn&#39;t stop there. Driven by her passion for technology, she decided to expand her knowledge by pursuing studies in software engineering and cybersecurity at Columbia University. With an unyielding thirst for knowledge, she aspires to delve into the world of digital defense, cybersecurity, recognizing its vital role in safeguarding individuals and organizations in the digital age.</p>
 
-            <p>Beyond her professional accomplishments, Danielle is a woman of profound kindness and a strong sense of responsibility towards her community. She runs a non-profit organization dedicated to assisting the homeless, providing them with shelter, food, and opportunities to rebuild their lives. Her partnership with Great Harvest Bread Co in Nashville has further strengthened her mission to alleviate the hardships faced by the less fortunate.</p>
+            <p>Beyond her professional accomplishments, Danielle is a woman of profound kindness and a strong sense of responsibility towards her community. She runs a non-profit organization dedicated to assisting the homeless, providing them with water, food, and opportunities to rebuild their lives through conversation and hope. Her partnership with Great Harvest Bread Co in Nashville has further strengthened her mission to alleviate the hardships faced by the less fortunate. Danielle has also devoted over 450 hours to The American Cancer Society and doesn't plant to stop there. </p>
 
             <p> Apart from her remarkable work, Danielle has diverse interests that keep her engaged and balanced. She is an avid enthusiast of Muay Thai, Pilates, and various sports, valuing the importance of physical well-being as much as intellectual growth. Her involvement in these activities also fosters camaraderie within her communities, where she is known for her friendly and approachable nature.</p>
 
@@ -95,10 +95,10 @@ export default function About() {
             <SocialLink href="#" icon={InstagramIcon} className="mt-4">
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            <SocialLink href="https://github.com/daniellecavallo" icon={GitHubIcon} className="mt-4">
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink href="https://www.linkedin.com/in/daniellecavallo" icon={LinkedInIcon} className="mt-4">
               Follow on LinkedIn
             </SocialLink>
             <SocialLink

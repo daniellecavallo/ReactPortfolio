@@ -35,42 +35,46 @@ function Tool({
 }
 
 export const metadata = {
-  title: 'Uses',
+  title: 'Services',
   description: 'Software I use, gadgets I love, and other things I recommend.',
 }
 
-export default function Uses() {
+export default function Services() {
   return (
     <SimpleLayout
-      title="Software I use, gadgets I love, and other things I recommend."
-      intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+      title="Services we change lives with."
+      intro="Cybersecurity - Marketing and Web Development - Internet Marketplace Platforms."
     >
       <div className="space-y-20">
-        <ToolsSection title="Workstation">
-          <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
+        <ToolsSection title="Services">
+          <Tool title="360 Marketing and Advertising">
             I was using an Intel-based 16” MacBook Pro prior to this and the
             difference is night and day. I’ve never heard the fans turn on a
             single time, even under the incredibly heavy loads I put it through
             with our various launch simulations.
           </Tool>
-          <Tool title="Apple Pro Display XDR (Standard Glass)">
+          <Tool title="Social Media Strategy">
             The only display on the market if you want something HiDPI and
             bigger than 27”. When you’re working at planetary scale, every pixel
             you can get counts.
           </Tool>
-          <Tool title="IBM Model M SSK Industrial Keyboard">
+          <Tool title="Content creation">
             They don’t make keyboards the way they used to. I buy these any time
             I see them go up for sale and keep them in storage in case I need
             parts or need to retire my main.
           </Tool>
-          <Tool title="Apple Magic Trackpad">
-            Something about all the gestures makes me feel like a wizard with
-            special powers. I really like feeling like a wizard with special
-            powers.
+          <Tool title="Web Development">
+            - Personal Website, 
+            - Small business / Business website, 
+            - Search Engine Optimization / SEO,
+            - E-commerce integration 
           </Tool>
-          <Tool title="Herman Miller Aeron Chair">
-            If I’m going to slouch in the worst ergonomic position imaginable
-            all day, I might as well do it in an expensive chair.
+          <Tool title="Web Development Packages">
+            - PWA with Application
+            - On-going customer service
+            - Website maintainence 
+            -Full tech support
+            -Emergency tech Support
           </Tool>
         </ToolsSection>
         <ToolsSection title="Development tools">
