@@ -273,10 +273,16 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          The Cavallo Company- Marketing, Sales, web development, and philanthropy
+          The Cavallo Company
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          At The Cavallo Company, we take pride in being a comprehensive partner for all your marketing and branding needs. As the owner of the company, I specialize in crafting 360-degree marketing and advertising plans that leave a lasting impact on your target audience. Our expertise extends beyond strategizing; we also possess the technical prowess to build cutting-edge websites and apps that align seamlessly with your brand identity.
+          Welcome to The Cavallo Company – your one-stop destination for all things tech and digital. At Cavallo, we're not just a company; we're your strategic partner in navigating the dynamic digital landscape. Specializing in a diverse array of services, from Web Development to Cybersecurity, Tech Support to Technical Maintenance, and everything in between.
+
+          Our mission is simple: to empower your brand's online presence. Through our expertise in SEO (Search Engine Optimization), we ensure your website doesn't just exist, but thrives in the digital realm. Our proficiency extends to crafting Marketing and Advertising Campaigns that capture attention and drive results. With our innovative 360 Marketing Plan, we seamlessly blend Marketing and Advertising, creating a harmonious symphony of brand promotion.
+
+          In the realm of Social Media, we excel not only in strategy but also in content creation that resonates with your audience. Our Selling and Sales Strategies are designed to maximize your conversions and revenue. With PPC (Pay-Per-Click) Advertising and Email Marketing, we deliver targeted messages that yield tangible outcomes.
+
+          But we don't stop there. Analytics & Reporting are at the heart of what we do – providing you with insights that inform intelligent decisions. At The Cavallo Company, we're not just a service provider; we're your growth partner, your digital companion, and your avenue to success in the digital age. Join us as we transform your tech challenges into triumphs and your digital dreams into reality.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
