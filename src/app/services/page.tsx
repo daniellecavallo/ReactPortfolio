@@ -64,17 +64,17 @@ export default function Services() {
             parts or need to retire my main.
           </Tool>
           <Tool title="Web Development">
-            - Personal Website, 
-            - Small business / Business website, 
-            - Search Engine Optimization / SEO,
-            - E-commerce integration 
+            <li className="list-none">Personal Website</li>
+            <li className="list-none">Small business / Business website</li>
+            <li className="list-none">Search Engine Optimization / SEO</li>
+            <li className="list-none">E-commerce integration </li>
           </Tool>
           <Tool title="Web Development Packages">
-            - PWA with Application
-            - On-going customer service
-            - Website maintainence 
-            -Full tech support
-            -Emergency tech Support
+            <li className="list-none">PWA with Application</li>
+            <li className="list-none">On-going customer service</li>
+            <li className="list-none">Website Maintenance</li>
+            <li className="list-none">Full Tech Support</li>
+            <li className="list-none">Emergency Tech Support</li>
           </Tool>
         </ToolsSection>
         <ToolsSection title="Development tools">
