@@ -27,11 +27,12 @@ export function Footer() {
           <ContainerInner>
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                <NavLink href="/about">About</NavLink>
-                <NavLink href="/services">Services</NavLink>
+                <NavLink href="/aboutDanielle">About Danielle</NavLink>
+                <NavLink href="/aboutCharlie">About Charlie</NavLink>
+                {/* <NavLink href="/services">Services</NavLink>
                 <NavLink href="/packages">Packages</NavLink>
                 <NavLink href="/team">Team</NavLink>
-                <NavLink href="/demo">Demo</NavLink>
+                <NavLink href="/demo">Demo</NavLink> */}
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
                 &copy; {new Date().getFullYear()} The Cavallo Company. All rights
