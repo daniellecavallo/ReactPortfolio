@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: {
     template: '%s - The Cavallo Company',
     default:
-      'The Cavallo Company- Marketing, Sales, web development, and philanthropy',
+      'The Cavallo Company- Marketing, Sales, web development, and Cybersecurity',
   },
   description:
    'At The Cavallo Company, we take pride in being a comprehensive partner for all your marketing and branding needs. As the owner of the company, I specialize in crafting 360-degree marketing and advertising plans that leave a lasting impact on your target audience. Our expertise extends beyond strategizing; we also possess the technical prowess to build cutting-edge websites and apps that align seamlessly with your brand identity.',
