@@ -9,7 +9,10 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import avatarImage from '@/images/theccblack.png'
+import avatarDark from '@/images/theccblack.png'
+import avatarLight from '@/images/tccwhite.png'
+
+
 
 
 function CloseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
@@ -236,6 +239,9 @@ function Avatar({
 }: Omit<React.ComponentPropsWithoutRef<typeof Link>, 'href'> & {
   large?: boolean
 }) {
+
+  const { resolvedTheme } = useTheme()
+
   return (
     <Link
       href="/"
@@ -244,7 +250,7 @@ function Avatar({
       {...props}
     >
       <Image
-        src={avatarImage}
+        src={resolvedTheme === "dark" ? avatarLight : avatarDark}
         alt=""
         sizes={large ? '4rem' : '2.25rem'}
         className={clsx(
