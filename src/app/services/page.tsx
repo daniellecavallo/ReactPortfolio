@@ -55,28 +55,28 @@ export default function Service() {
       <div className="space-y-20">
         <ServiceSection title="Web Development">
           <Appearance
-            href="#"
+            href="mailto:thecavallocompany@gmail.com"
             title="Personal Websites"
             description="Need a personal web presence? Looking to grow a following with a blog, or maybe you need a portfolio to showcase your work? The Cavallo Company can ensure you stand out from the crowd."
             event="Your time to shine"
             cta="Contact us to find out more"
           />
           <Appearance
-            href="#"
+            href="mailto:thecavallocompany@gmail.com"
             title="Small Business Site"
             description="You've built a business, and want it to grow. Let us help you expand your reach and your audience with our custom built sites and comprehensive marketing packages."
             event="Get the word out"
             cta="Contact us to find out more"
           />
            <Appearance
-            href="#"
+            href="mailto:thecavallocompany@gmail.com"
             title="Search Engine Optimization / SEO"
             description="Have a site, but not sure it's getting the traffic it deserves? With our knowledge and experience in SEO, we can help make sure your site has the reach you need."
             event="Move on up in the (google) world"
             cta="Contact us to find out more"
           />
            <Appearance
-            href="#"
+            href="mailto:thecavallocompany@gmail.com"
             title="E-Commerce Integration"
             description="Looking to integrate payments or a storefront into your site? We've got you covered."
             event="Let people see what you've got in store"
@@ -85,21 +85,21 @@ export default function Service() {
         </ServiceSection>
         <ServiceSection title="Packages">
           <Appearance
-            href="#"
+            href="mailto:thecavallocompany@gmail.com"
             title="PWA with Application"
             description="Want your site to be at the cutting edge of design, without the hassle of dealing with an app store? Our PWA with Application package will get you up and running."
             event="On the go and online"
             cta="Contact us to find out more"
           />
           <Appearance
-            href="#"
+            href="mailto:thecavallocompany@gmail.com"
             title="Website Maintenance and Support"
             description="Run your site worry free with our ongoing maintenance package, ensuring your site has everything it needs to keep thriving."
             event="Let us sweat the big stuff."
             cta="Contact us to find out more"
           />
           <Appearance
-            href="#"
+            href="mailto:thecavallocompany@gmail.com"
             title="Emergency Tech Support"
             description="A site outage is one of the most stressful things a business owner can have happen, no matter the cause. With our Emergency Tech Support package, we fight the fires so you don't have to, so you can get back online and doing what you best."
             event="Your very own team of DevOps ninjas"
