@@ -9,8 +9,6 @@ import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import avatarDark from '@/images/theccblack.png'
-import avatarLight from '@/images/tccwhite.png'
 
 
 
@@ -250,9 +248,11 @@ function Avatar({
       {...props}
     >
       <Image
-        src={resolvedTheme === "dark" ? avatarLight : avatarDark}
+        src={resolvedTheme === "dark" ? "/images/tccwhite.png" : "/images/theccblack.png"}
         alt=""
         sizes={large ? '4rem' : '2.25rem'}
+        width= {200}
+        height={200}
         className={clsx(
           'rounded-full bg-zinc-100 object-cover dark:bg-zinc-800',
           large ? 'h-16 w-16' : 'h-9 w-9',

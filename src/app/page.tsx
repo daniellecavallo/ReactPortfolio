@@ -11,14 +11,6 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
-import image1 from '@/images/photos/einstein.jpg'
-import image2 from '@/images/photos/gogh.jpg'
-import image3 from '@/images/photos/jung.jpg'
-import image4 from '@/images/photos/tesla.jpg'
 
 
 import { formatDate } from '@/lib/formatDate'
@@ -178,9 +170,9 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4].map((image, imageIndex) => (
+        {["/images/photos/einstein.jpg", "/images/photos/gogh.jpg","/images/photos/jung.jpg","/images/photos/tesla.jpg"].map((image, imageIndex) => (
           <div
-            key={image.src}
+            key={imageIndex}
             className={clsx(
               'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
               rotations[imageIndex % rotations.length],
@@ -188,6 +180,8 @@ function Photos() {
           >
             <Image
               src={image}
+              width={640}
+              height={640}
               alt=""
               sizes="(min-width: 640px) 18rem, 11rem"
               className="absolute inset-0 h-full w-full object-cover"
